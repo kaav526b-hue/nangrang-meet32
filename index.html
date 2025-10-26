@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>낭랑청춘만남2 커플매칭</title>
+    <title>낭랑청춘만남2 – 참가자 목록</title>
+    <style>
+      body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,sans-serif; padding: 20px; }
+      h1 { margin: 0 0 8px; }
+      .muted { color: #666; margin-bottom: 16px; }
+      .box { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+      ul { margin: 8px 0 0 16px; }
+      .ok { color: #0a7; font-weight: 700; }
+      .err { color: #c00; font-weight: 700; white-space: pre-wrap; }
+    </style>
   </head>
   <body>
+    <h1>낭랑청춘만남2</h1>
+    <div class="muted">Firebase에서 참가자 명단을 불러옵니다…</div>
+
     <div id="root"></div>
 
-    <!-- React 앱 실행 -->
-    <script src="app.js"></script>
+    <!-- 모듈 스크립트 -->
+    <script type="module" src="app.js"></script>
   </body>
 </html>
